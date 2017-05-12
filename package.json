@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUN-LG/Timestamp-Microservice.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "sunlg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUN-LG/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/SUN-LG/Timestamp-Microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1"
+  }
+}
