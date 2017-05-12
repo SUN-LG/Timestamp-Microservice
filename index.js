@@ -2,8 +2,10 @@ const moment = require("moment")
 const express = require("express")
 const app = express()
 
+
 app.set('port', process.env.PORT || 5000)
 app.use(express.static(__dirname + '/public'))
+
 
 app.get('/', (req, res) => {
   res.send('hello world')
@@ -25,6 +27,6 @@ app.get('/:timestamp', (req, res) => {
   res.json(result_json)
 })
 
-app.listen(app.get('prot'), () => {
+app.listen(app.get('port'), () => {
   console.log('timestamp is running at port:', app.get('port'))
 })
